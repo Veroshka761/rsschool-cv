@@ -32,7 +32,7 @@ current_seconds()
 * **Kerch Marine Technological Institute**
   * Enterprise economy
 * **National Research Tomsk State University**
-  * Data analyst   
+  * [Data analyst](https://opendata.university/data_analytics)  
 
 
 
