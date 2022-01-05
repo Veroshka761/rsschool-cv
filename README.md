@@ -1,6 +1,4 @@
 # rsschool-cv
-https://Veroshka76.github.io/rsschool-cv/cv
-
-
+rsschool-cv-html
 https://Veroshka76.github.io/rsschool-cv/
 
