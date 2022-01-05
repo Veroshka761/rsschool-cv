@@ -27,21 +27,32 @@
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title">Veronika Shilova</h1>
-                <img src="./assets/img/image.jpg" alt="avatar" width="200" height="200">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="avatar"src="./assets/img/avatar.jpg" alt="avatar" width="200">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">
+                        Veronika Shilova
+                    </h1>
+                    <h3 class="section-subtitle">future front-end developer</h3>
+                </div>
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
                 <p>Email: veroshka76@gmail.com</p>
                 <p>Discord: Veronika Shilova (@Veroshka76)</p>
                 <a href="https://github.com/Veroshka76">GitHub</a>
-         
+
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
-                <p>I try to constantly learn something new. I want to get new knowledge and skills for professional growth</p>
+                <p>I try to constantly learn something new. I want to get new knowledge and skills for professional growth.My goal is to change my life for the better.</p>
+                <blockquote>
+                    <p class="blockquote">
+                        "When one door closes another door opens; but we often look so long and so regretfully upon the closed door that we do not see the ones which open for us."
+                    </p>
+                    <footer>— <cite>Alexander Graham Bell</cite></footer>
+                </blockquote>
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
@@ -49,31 +60,29 @@
                     <li> Python (basic knowledge pandas, seaborn)</li>
                     <li>SQL (basic knowledge postgresql)</li>    
                     <li>Git/GitHub</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
+                    <li>HTML/CSS</li>
                 </ul>
-         
             </section>
-            <p class="section" id="code">
+            <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <pre><code>
-                    from datetime import datetime
+                <pre>
+                    <code>
+from datetime import datetime
 
+def current_seconds():
+    """Return current seconds"""
+    return datetime.now().second
 
-                    def current_seconds():
-                        """Return current seconds"""
-                        return datetime.now().second
-                    
-                    
-                    current_seconds()
-                </code></pre>
-         
+current_seconds()
+
+                    </code>
+                </pre>
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
                 <dl>
                     <dt>Kerch Marine Technological Institute</dt>
-                    <dd>Enterprise economy</dd>
+                    <dd>Business economics</dd>
                     <dt><b>National Research Tomsk State University</b></dt>
                     <dd>Data analyst</dd>
                 </dl>         
@@ -81,15 +90,14 @@
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
                 <p>Russian and Ukrainian - native speaker</p>
-                <p>English - A1</p>
-                    
-                    
+                <p>English - A1</p>       
             </section>
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
-            <div>© 2022 <a href="https://github.com/Veroshka76" class="github nav-link">Veroshka76</a></div>
+        <div class="container footer-container">
+            <div>© 2022 <a class="github" href="https://github.com/Veroshka76" class="github"><img src="assets\svg\GitHub-Mark\PNG\GitHub-Mark-Light-32px.png" alt=""></a></div>
+            <a href="https://rs.school/js/"><img class="filter-white" src="assets\svg\rs_school_js.svg" alt = ""></a>
         </div>
     </footer>
 </body>
